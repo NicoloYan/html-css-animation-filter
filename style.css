@@ -3,16 +3,51 @@
     height: 100px;
     border: 1px solid red;
 }
+
+/* Soluzione 1 */
+
+.ex-1-square {
+    transition: background-color 2s;
+}
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* Fine Soluzione 1 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* Soluzione esercizio 2 */
+
+.ex-2-square {
+    transition: width 2s;
+}
+.ex-2-square:active {
+    width: 1000px;
+}
+
+/* Fine soluzione 2 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* Soluzione 3 */
+
+.ex-3-square {
+    transition: border-radius 2s;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* Fine soluzione 3 */
 .ex-4-square {
     width: 100px;
     height: 100px;
