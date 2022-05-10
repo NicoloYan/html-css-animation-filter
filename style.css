@@ -270,3 +270,68 @@
     }
 }
 /* Fine soluzione 12 */
+
+/* Soluzione 13 */
+
+.ex-13-top-white {
+    animation: topwhite2 5s linear infinite;
+}
+
+@keyframes topwhite2 {
+    25% {
+        top: -10px;
+        left: 90%;
+    }
+
+    50% {
+        top: 60px;
+        left: 90%;
+    }
+
+    75% {
+        top: 60px;
+        left: -20px;
+    }
+
+    90% {
+        top: -10px;
+        left: -20px;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+.ex-13-bottom-white {
+    animation: bottomwhite2 5s linear infinite;
+}
+
+@keyframes bottomwhite2 {
+    25% {
+        right: 90%;
+        bottom: -10px;
+    }
+
+    50% {
+        right: 90%;
+        bottom: 60px;
+    }
+
+    75% {
+        right: -30%;
+        bottom: 60px;
+    }
+
+    90% {
+        right: -30%;
+        bottom: -10px;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+/* Fine soluzione 13 */
